@@ -1,0 +1,110 @@
+body {
+
+  margin: 0;
+
+  
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  font-family: Arial, sans-serif;
+
+  background-image: url("Images/fondetoile.png");
+
+  background-position: center;
+}
+
+canvas {
+
+  border: 4px solid rgb(180, 80, 255);
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 0 20px rgb(180, 80, 255),
+    0 0 60px rgba(180, 80, 255, 0.5);
+
+  display: block;
+}
+
+#logo {
+
+  position: absolute;
+
+  top: -20px;
+
+  left: 50%;
+width: 620px;
+
+}
+#instructions {
+
+  position: absolute;
+
+  left: 20px;
+
+  top: 50%;
+
+  width: 520px;
+ 
+}
+#credit {
+
+  position: absolute;
+
+  bottom: 10px;
+
+  right: 70px;
+
+  color: white;
+
+  font-size: 25px;
+
+  font-family: Arial, sans-serif;
+}
+#texteInstructions {
+
+  position: absolute;
+
+  left: 130px;
+
+  top: 300px;
+
+  width: 300px;
+
+  color: white;
+
+
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+}
+
+#texteInstructions h2 {
+
+  color: rgb(255, 180, 255);
+
+  font-size: 20px;
+}
+
+#texteInstructions p {
+
+  font-size: 16px;
+
+}
+#astronaute {
+
+  position: absolute;
+
+  right: -200px;
+
+  bottom: 100px;
+
+  width: 1000px;
+
+}
