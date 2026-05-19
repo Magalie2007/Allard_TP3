@@ -559,6 +559,8 @@ function mousePressed() {
       fusee.vitesse = 7;
 
       etatJeu = "menu";
+
     }
+
   }
 }
